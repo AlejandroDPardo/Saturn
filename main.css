@@ -1,0 +1,36 @@
+body {
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+}
+
+
+h1 {
+    color: #ffffff; 
+}
+
+
+.button {
+    padding: 15px 25px;
+    font-size: 18px;
+    margin: 20px;
+    cursor: pointer;
+    background-color: #00ff379a; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+}
+
+
+.button:disabled {
+    background-color: #ff0000; 
+    cursor: not-allowed;
+}
+
+
+#meme {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 200px;
+}
